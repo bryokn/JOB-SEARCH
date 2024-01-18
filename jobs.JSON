@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Software Engineer",
+        "company": "Tech Co.",
+        "location": "Nairobi",
+        "description": "We are looking for a skilled Software Engineer to join our team.",
+        "requirements": "Experience with JavaScript, HTML, CSS, and Python."
+    },
+    {
+        "title": "Data Scientist",
+        "company": "Data Co.",
+        "location": "Mombasa",
+        "description": "We are seeking a Data Scientist with experience in machine learning and statistical analysis.",
+        "requirements": "Experience with Python, R, SQL, and machine learning algorithms."
+    },
+    {
+        "title": "Product Manager",
+        "company": "Product Co.",
+        "location": "Nakuru",
+        "description": "We need a Product Manager to oversee the development and launch of new products.",
+        "requirements": "Experience with product management, project management, and UX design."
+    }
+]
