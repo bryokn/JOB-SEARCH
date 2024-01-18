@@ -21,6 +21,11 @@ h1{
     text-align: center;
 }
 
+.contact{
+    text-align: center;
+    font-family: 'brush script mt', cursive;
+}
+
 #menu {
     display: flex;
     justify-content: space-around;
