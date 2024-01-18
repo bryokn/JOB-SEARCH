@@ -25,7 +25,7 @@ function searchJobs(query) {
     return results;
 }
 
-function createPopup(title, fields, message) {
+function createPopup(title, fields, message, onSubmit) {
     // Popup
     var popup = document.createElement('div');
     popup.style.position = 'fixed';
@@ -74,7 +74,8 @@ function createPopup(title, fields, message) {
         if (isEmpty){
             alert('Error, Missing data in the form');
         } else{
-            alert(message);
+            onSubmit(form);
+            document.body.removeChild(popup);
         }
     });
     form.appendChild(submit);
@@ -99,7 +100,7 @@ function createPopup(title, fields, message) {
 }
 
 document.getElementById('search').addEventListener('click', function() {
-    createPopup('Search', ['Search'], 'Welcome to Moringa Search Jobs!!', function(form) {
+    createPopup('Search', ['Search'], 'Searching for jobs...', function(form) {
         var query = form.elements.search.value;
         var results = searchJobs(query);
         var jobsDiv = document.getElementById('jobs');
@@ -107,7 +108,7 @@ document.getElementById('search').addEventListener('click', function() {
         if (results.length > 0) {
             results.forEach(function(job) {
                 var jobDiv = document.createElement('div');
-                jobDiv.textContent = job.title + ' at ' + job.company;
+                jobDiv.textContent = job.title + ' at ' + job.company + ' in ' + job.location + '. ' + job.description + ' Requirements: ' + job.requirements;
                 jobsDiv.appendChild(jobDiv);
             });
         } else {
@@ -127,6 +128,3 @@ document.getElementById('signup').addEventListener('click', function() {
        
     });
 });
-
-
-
