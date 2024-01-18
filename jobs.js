@@ -118,13 +118,13 @@ document.getElementById('search').addEventListener('click', function() {
 
 document.getElementById('login').addEventListener('click', function() {
     createPopup('Login', ['Username', 'Password'], 'Welcome Back!!', function(form) {
-        // Add your login logic here
+        
     });
 });
 
 document.getElementById('signup').addEventListener('click', function() {
     createPopup('Sign Up', ['Name', 'Email', 'Password'], 'Welcome to Moringa Search Jobs!!', function(form) {
-        // Add your sign up logic here
+       
     });
 });
 
