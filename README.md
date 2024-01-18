@@ -32,7 +32,7 @@
 
 <h3>Contacts and Contributing</h3>
 We welcome contributions to JOB-SEARCH! Please see our contributing guide for more details.</br>
-You can contact me at bryokn@gmail.com
+<p>You can contact me at <a href="mailto:bryokn@gmail.com">bryokn@gmail.com</a></p>
 
 
 <h2>License</h2>
