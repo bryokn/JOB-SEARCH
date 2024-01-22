@@ -1,5 +1,5 @@
 // Fetch data from the JSON file
-fetch('https://github.com/bryokn/JOB-SEARCH/blob/main/jobs.JSON')
+fetch('https://raw.githubusercontent.com/bryokn/JOB-SEARCH/main/jobs.JSON')
     .then(response => response.json())
     .then(data => {
         // Save the data
