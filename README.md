@@ -34,6 +34,7 @@
 We welcome contributions to JOB-SEARCH! Please see our contributing guide for more details.</br>
 <p>You can contact me at <a href="mailto:bryokn@gmail.com">bryokn@gmail.com</a></br></p>
 <p> You can access the live site at https://bryokn.github.io/JOB-SEARCH/</p>
+<p>This is the link to my <a href="https://trello.com/b/RKUf5Fai/job-search">Trello</a> board.</p>
 
 
 <h2>License</h2>
