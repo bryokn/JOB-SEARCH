@@ -5,7 +5,7 @@ body {
 
 body::after {
     content: "";
-    background: url(https://github.com/bryokn/JOB-SEARCH/blob/9551741e93607d22e1d537772bf634558f483e6d/images/job.jpg);
+    background: url(images/job.jpg);
     opacity: 0.5;
     top: 0;
     left: 0;
